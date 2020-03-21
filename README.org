@@ -1,2 +1,10 @@
+#+title: check-tree
+#+author: Sébastien Le Callonnec
+
 Project for code at https://stackoverflow.com/a/21851201/289466 by
 user SomethingSomething on Stack Overflow.
+
+
+#+begin_src bash
+./mvnw exec:java -Dexec.mainClass=com.weblogism.checktree.Main
+#+end_src
